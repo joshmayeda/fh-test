@@ -4,22 +4,20 @@ import { useState, useEffect } from 'react'
 import EnemyTile from './EnemyTile'
 import EnemyModal from './EnemyModal'
 import { Button } from '@mui/material'
-import monsterAttackModifierCardBack from 'public/img/monster-att-mod/monster_back.png'
-import dice from 'public/img/icons8-dice-80.png';
 
 
 const EnemyPage:React.FC = () => {
   const [showEnemyModal, setShowEnemyModal] = useState(false);
 
   const enemyTiles = [
-    <EnemyTile dice={dice} enemyNum={1} key={1} />, 
-    <EnemyTile dice={dice} enemyNum={1} key={1} />,
-    <EnemyTile dice={dice} enemyNum={1} key={1} />,
-    <EnemyTile dice={dice} enemyNum={1} key={1} />,
-    <EnemyTile dice={dice} enemyNum={1} key={1} />,
-    <EnemyTile dice={dice} enemyNum={1} key={1} />,
-    <EnemyTile dice={dice} enemyNum={1} key={1} />,
-    <EnemyTile dice={dice} enemyNum={1} key={1} />,
+    <EnemyTile enemyNum={1} key={1} />, 
+    <EnemyTile enemyNum={1} key={1} />,
+    <EnemyTile enemyNum={1} key={1} />,
+    <EnemyTile enemyNum={1} key={1} />,
+    <EnemyTile enemyNum={1} key={1} />,
+    <EnemyTile enemyNum={1} key={1} />,
+    <EnemyTile enemyNum={1} key={1} />,
+    <EnemyTile enemyNum={1} key={1} />,
   ];
 
   return (
@@ -32,6 +30,9 @@ const EnemyPage:React.FC = () => {
           setShowEnemyModal={setShowEnemyModal}
           enemyTiles={enemyTiles} 
         />
+        <div>
+          hi
+        </div> 
       </main>
     </div>
   )
