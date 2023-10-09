@@ -7,7 +7,7 @@ type EnemyTileProps = {
     enemyNum: number;
 }
 
-const EnemyTile:React.FC<EnemyTileProps> = ({ enemyNum, dice }) => {
+const EnemyTile:React.FC<EnemyTileProps> = ({ enemyNum }) => {
     // useEffect(() => {
     //     WebFont.load({
     //         google: {
