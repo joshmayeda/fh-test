@@ -19,7 +19,7 @@ const EnemyTile:React.FC<EnemyTileProps> = ({ enemyNum }) => {
     return (
         <>
             <div className="grid max-h-1/2 max-w-1/2 bg-white justify-center items-center self-center">
-                hello
+                hello1
             </div>
         </>
     )
