@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react'
 // import EnemySelectModal from './EnemySelectModal'
 // import AttackModifierModal from './AttackModifierModal'
-import { Button } from '@mui/material'
 //import AttackDrawModal from './AttackDrawModal';
 
 // const enemyNames = [
@@ -221,7 +220,7 @@ const EnemyPage:React.FC = () => {
           setEnemyTiles={setEnemyTiles}
         /> */}
         {/* <div className="flex flex-col col-span-4 overflow-hidden"> */}
-          <Button variant="contained" onClick={() => setShowAttackModifierModal(true)} className="fixed left-5 bottom-5 w-1/6 xxl:right-10 xxl:bottom-10 bg-green-500 text-black">EDIT ATTACK</Button>
+          <button onClick={() => setShowAttackModifierModal(true)} className="fixed left-5 bottom-5 w-1/6 xxl:right-10 xxl:bottom-10 bg-green-500 text-black">EDIT ATTACK</button>
           {/* <AttackModifierModal
             showAttackModifierModal={showAttackModifierModal}
             setShowAttackModifierModal={setShowAttackModifierModal}
