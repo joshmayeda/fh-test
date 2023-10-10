@@ -220,7 +220,7 @@ const EnemyPage:React.FC = () => {
           enemyTiles={enemyTiles}
           setEnemyTiles={setEnemyTiles}
         /> */}
-        <div className="flex flex-col col-span-4 overflow-hidden">
+        {/* <div className="flex flex-col col-span-4 overflow-hidden"> */}
           <Button variant="contained" onClick={() => setShowAttackModifierModal(true)} className="fixed left-5 bottom-5 w-1/6 xxl:right-10 xxl:bottom-10 bg-green-500 text-black">EDIT ATTACK</Button>
           {/* <AttackModifierModal
             showAttackModifierModal={showAttackModifierModal}
@@ -238,7 +238,7 @@ const EnemyPage:React.FC = () => {
             )
           }
           {/* <AttackDrawModal drawnCard={drawnCard} showAttackDrawModal={showAttackDrawModal} setShowAttackDrawModal={setShowAttackDrawModal} /> */}
-        </div>
+        {/* </div> */}
       </main>
     </div>
   )
